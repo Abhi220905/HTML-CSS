@@ -1,0 +1,35 @@
+.navbaar {
+    display: flex;
+    background-color: #caca23;
+    padding: 20px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(149, 108, 76);
+    font-size: 18px;
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.head{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.navbaar2{
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+li{
+    list-style-type: none;
+}
