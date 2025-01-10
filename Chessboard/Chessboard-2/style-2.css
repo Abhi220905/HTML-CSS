@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #726b6b;
+   
+}
+
+
+.row div{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+  } 
+
+.chessboard {
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .Square {
+    width: 90px;
+    height: 90px;
+  }
+
+  .A{
+    background-color: #000000;
+    color: aliceblue;
+  }
+  
+  .B{
+    background-color: rgba(255, 255, 255, 0.869)
+  }
+ 
